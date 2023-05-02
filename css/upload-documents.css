@@ -1,0 +1,197 @@
+.main_wrapper {
+  height: 100%;
+}
+
+.form_wrapper {
+  position: relative;
+  padding: 40px 30px;
+  background: #ffffff;
+  border: 1px solid #e0baca;
+  border-radius: 4px;
+  height: auto;
+}
+
+.form_wrapper p {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #64748B;
+  margin-bottom: 50px;
+}
+
+.form_wrapper h2 {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #1e2a3b;
+  margin-bottom: 15px;
+}
+
+.formSubmitButton {
+  max-width: 310px;
+}
+
+.btnArrow {
+  margin-left: 10px;
+}
+
+/* upload files css start here */
+#upload_from .form-group {
+  padding: 32px 20px 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.filetxt {
+  color: #AE285D;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 700;
+}
+
+.file {
+  position: relative;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.file_input,
+.file_value {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  margin-bottom: 0.875rem;
+  color: rgba(255, 255, 255, 0.3);
+  padding: 0.9375rem 1.0625rem;
+  color: #fff;
+  background: #FEF4F8;
+  border: 1px dashed #E0BACA;
+}
+
+.cu_file_input {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+}
+
+.file_input_span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.file_value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.file_value:after {
+  content: "X";
+  cursor: pointer;
+  color: #000;
+  font-size: 12px;
+}
+
+.file_value--text {
+  color: #000;
+  font-size: 12px;
+}
+
+.file_remove {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+}
+
+.form-group.has-error .file_input {
+  border: 1px dashed #ff0000;
+}
+
+.upload_btn {
+  max-width: 155px;
+  background: #fff;
+  color: #AE285D;
+  border: 1px solid #AE285D;
+  height: 40px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.upload_btn:hover {
+  background: #AE285D;
+  color: #fff;
+}
+/* upload files css end here */
+
+/* Upload Selfie Style Start Here */
+.upload_selfie {
+  text-align: center;
+}
+
+.upload_selfie .upload_selftxt{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #27364B;
+}
+
+.upload_selfie h6,
+.upload_selfie h5{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.upload_selfie .file_input {
+  max-width: 105px;
+  min-height: 115px;
+  margin: 15px auto;
+  padding: 0;
+  border: none;
+}
+
+.upload_selfie .cu_file_input,
+.upload_selfie .file_input_span {
+  height: 115px;
+  width: 106px;
+  border-radius: 6px;
+}
+
+.upload_selfie .retake_photo{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #AE285D;
+  cursor: pointer;
+}
+/* Upload Selfie Style Start Here */
+
+@media screen and (max-width: 991.98px) {
+  .form_wrapper {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .form_wrapper {
+    border-radius: 8px;
+    padding: 15px 10px;
+  }
+
+  .form_wrapper h2 {
+    margin-bottom: 12px;
+  }
+}

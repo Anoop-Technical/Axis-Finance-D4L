@@ -1,0 +1,134 @@
+.otpform_wrapper {
+    position: relative;
+    padding: 0 30px 40px;
+    background: #FFFFFF;
+    border: 1px solid #E0BACA;
+    border-radius: 4px;
+    min-height: 855px;
+}
+
+/* OTP Modal */
+
+.card-body {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.card-body h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #1e2a3b;
+    margin-bottom: 20px;
+}
+
+.card-body p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #27364b;
+    margin-bottom: 20px;
+}
+
+.digit-group .digit {
+    width: 56.92px;
+    height: 54px;
+    background: #ffffff;
+    border: 1px solid #c4c4c4;
+    border-radius: 9px;
+}
+
+.digit-group .digit:hover,
+.digit-group .digit:focus,
+.digit-group .digit:active,
+.digit-group .digit:focus-visible,
+.digit-group .digit:focus-within {
+    outline: #AE285D;
+    box-shadow: none;
+}
+
+.__mr_20 {
+    margin-right: 15px;
+}
+
+.submit_btn {
+    max-width: 297px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    background: #AE285D;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 16px;
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.__theme_color {
+    color: #26282e;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.card-body .form-group .help-block.otp_error_box {
+    display: none;
+}
+
+.card-body .form-group.has-error .help-block.otp_error_box {
+    font-size: 11px;
+    line-height: 11px;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%);
+    color: red;
+    display: block;
+}
+
+.btn-close:focus,
+.btn-close:hover,
+.btn-close:active {
+    box-shadow: none;
+}
+
+/* End OTP */
+
+@media screen and (max-width: 1199.98px) {
+    .otpform_wrapper {
+        min-height: 898px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .card-body h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 374.98px) {
+    .digit-group .digit {
+        width: 44.92px;
+        height: 46px;
+    }
+
+    .card-body .form-group.has-error .help-block.otp_error_box {
+        top: 55px;
+    }
+
+    .__mr_20 {
+        margin-right: 0px;
+    }
+}

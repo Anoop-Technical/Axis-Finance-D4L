@@ -1,0 +1,32 @@
+.main_wrapper {
+  height: 100%;
+}
+
+.thanks_wrapper {
+  background: #FFFFFF;
+  border: 1px solid #E0BACA;
+  padding: 50px 50px 100px;
+}
+
+.thanks_wrapper h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #222222;
+  margin: 20px 0;
+}
+
+.thanks_wrapper p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #222222;
+}
+
+@media screen and (max-width: 575.98px) {
+  .thanks_wrapper {
+    padding: 20px 20px 50px;
+  }
+}
